@@ -1,0 +1,88 @@
+.divZaProdavnicu{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nazivProdavnice{
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.divGlavni
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.divZaPrikaz{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center ;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.divZaSto{
+    display: flex;
+    flex-direction: column;
+}
+.divZaFiltere{
+    width: 200px;
+    padding-right: 5px;
+    border-right: 2px solid black;
+    flex-shrink: 0;
+}
+
+.divZaFiltere label {
+    width: 40%;
+}
+
+.divZaFiltere select, .divZaFiltere input{
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.divZaKolicinu, .divZaMesto, .divZaSastojak{
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.dugmeDodaj{
+    width: fit-content;
+
+}
+
+.labelaCena, .brojStola{
+    text-align: center;
+}
+
+.divZaSendvic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divHlebGornji, .divHlebDonji{
+    height: 5px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.divPrilozi{
+    width: 80%;
+}
+
+.divSastojak{
+    
+    width: 100%;
+}
